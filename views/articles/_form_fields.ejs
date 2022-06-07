@@ -1,0 +1,17 @@
+<div class="field">
+    <label for="title">Title</label>
+    <input required class="form-control" type="text" name="title" id="title" value="<%- article ? article.title : ''%>">
+</div>
+<div class="field">
+    <label for="description">Description</label>
+    <textarea class="form-control" name="description" id="description" rows="5" style="resize:none"><%= article ? article.description : ''%></textarea>
+</div>
+<div class="field">
+    <label for="markdown">Markdown</label>
+    <textarea class="form-control" name="markdown" id="markdown" rows="20" style="resize:none; font-family:'Consolas', monospace;"><%= article ? article.markdown : ''%></textarea>
+</div>
+
+<!-- <div class="ui two buttons"> -->
+    <a class="ui basic red button" href="/" >Cancel</a>
+    <button class="ui basic green button" type="submit">Save</button>
+<!-- </div> -->

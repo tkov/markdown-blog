@@ -1,0 +1,22 @@
+ pre {
+    /* background-color: #2f2f2f; */
+    /* color: white; */
+    border-radius: .25rem;
+    /* padding: .75rem;  */
+}
+
+h1 {
+    font-size: x-large;
+}
+
+h2 {
+    font-size: large;
+}
+
+h3 {
+    font-size: medium;
+}
+
+.md {
+    margin-top: 2rem;
+}
